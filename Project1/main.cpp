@@ -24,7 +24,7 @@ int main()
     allocate_data(&m2);
     allocate_data(&c);
     
-    /*cout << "If you want to input elements by hand, please input \"1\"."
+    cout << "If you want to input elements by hand, please input \"1\"."
         << "\nIf you want generate elements by random, please input \"2\":";
     cin >> choice;
     if(choice == '1')
@@ -40,10 +40,10 @@ int main()
     else
     {
         cout << "Please input \"1\" or \"2\" to choice the way you want to initialize matrix." <<endl;
-    }*/
+    }
     
-    gen_data(&m1);
-    gen_data(&m2);
+    //gen_data(&m1);
+    //gen_data(&m2);
 
     auto start = std::chrono::steady_clock::now();
     mat_multi(&m1, &m2, &c);
