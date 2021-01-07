@@ -1,10 +1,10 @@
 # Image Data Set
 These pictures are all 128*128 which can be ussed for this simple CNN to test its results.
-\nHere are the results:
+Here are the results:
 
 - Picture name: bg.jpg:
-\nNotFace: p1 = 1
-\nIsFace: p2 = 3.55696e-07
+NotFace: p1 = 1
+IsFace: p2 = 3.55696e-07
 
 - Picture name: face.jpg
 \nNotFace: p1 = 3.76485e-09
